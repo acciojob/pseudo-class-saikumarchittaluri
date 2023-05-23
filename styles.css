@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
- .para::before {
+ div::before {
 		content:"Before Element ";
 		color:rgb(255, 0, 0);
 		font-weight: bold;
 		font-size:20px;
 }
-.para::after {
+div::after {
 		content:" After Element";
 		color:rgb(255, 0, 0);
 		font-weight: bold;
