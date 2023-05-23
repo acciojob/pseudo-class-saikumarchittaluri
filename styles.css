@@ -1,13 +1,13 @@
 /*  your css code here. If applicable */
- p::before {
+ .para::before {
 		content:"Before Element ";
 		color:rgb(255, 0, 0);
 		font-weight: bold;
-		font-size:18px;
+		font-size:20px;
 }
-p::after {
+.para::after {
 		content:" After Element";
 		color:rgb(255, 0, 0);
 		font-weight: bold;
-		font-size:18px;
+		font-size:20px;
 }
